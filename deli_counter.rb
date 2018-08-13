@@ -9,6 +9,7 @@ def line(katz_deli)
      katz_deli.each do |x|
      line.push("#{count}.")
      count+=1
+   end
   end
   puts line
 end
